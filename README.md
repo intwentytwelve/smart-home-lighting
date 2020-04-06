@@ -12,10 +12,12 @@ An adaptive lighting control system that aims to reduce energy consumption while
 ## Installation
 To install the latest stable release:
 
-`pip install kivy`
-`pip install nanoleafapi`
-`pip install phue`
-`pip install requests`
-`pip install json`
-`pip install threading`
-`pip install pyowm`
+```bash
+pip install kivy
+pip install nanoleafapi
+pip install phue
+pip install requests
+pip install json
+pip install threading`
+pip install pyowm
+```
