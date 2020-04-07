@@ -20,7 +20,7 @@ pip install pyowm          #PyOWM is a client Python wrapper library for accessi
 ```
 
 ## Prerequisites
-We need to get the IP addresses of Philips Hue and Nanoleaf Canvas to control devices. These can be done by identifying MAC addresses at first. 
+Users need to get the IP addresses of Philips Hue and Nanoleaf Canvas to control devices. These can be done by identifying MAC addresses at first. 
 
 This is for connecting Nanoleaf Canvas:
 ```bash
@@ -48,4 +48,25 @@ background.jpg
 Music feature is allowing hue Phillips light bulbs to react to the beats and sync the lights flash to the background music. Fast Fourier transforms are widely used for applications in engineering, music, science, and mathematics. Accordingly this function is used to determine the brightness of the lamps concerning an activation threshold that constantly checks the brightness of the lamps:
 ```
 lightningstrike.py
+```
+
+The framework of application. Kv language is used for describing user interfaces and adding widgets to GUI and widgets are provided with functionalities to achieve the control of motion events. The functionalities of Nanoleaf Canvas are manual control, sunset/sunrise, weather reaction, temperature reaction and notification respectively:
+```
+main.py
+```
+
+Notification by flashing of Nanoleaf Canvas. It imitates a process that server sends a message through IFTTT, then users get a notification on mobile phone. Nanoleaf Canvas detects the notificaiton and flashes to notify users there is a message:
+```
+notice.py
+```
+
+Reducing the screen time is one of the most important factors that requires significant attention since it affects the users personal
+wellbeing. Hence, this research propounds a more visualized manner for Philips Hue lab and bed room bulbs to remind the users to rest their eyes after staring at the computer for a long period of time.
+```
+screen.py
+```
+
+This features aims to make the hue light bulbs work with respect to weather condition. In this regard, this research has used Open Weather Maps as the weather API to get the current weather conditions for one place and then changes the color of the brightness of the Hue lamps accordingly.
+```
+weather.py
 ```
