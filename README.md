@@ -13,13 +13,13 @@ An adaptive lighting control system that aims to reduce energy consumption while
 To install the latest stable release of libraries used:
 
 ```bash
-pip install kivy #Open source framework based on Python, providing GUI for developing software
-pip install nanoleafapi #nanoleafapi is a Python 3 wrapper for the Nanoleaf OpenAPI
-pip install phue #Full featured Python library to control the Philips Hue lighting system
-pip install requests #The requests library is a standard for making HTTP requests in Python
-pip install json #It can also convert Python dictionaries or lists into JSON strings
-pip install threading #Non blocking timer for dynamic control
-pip install pyowm #PyOWM is a client Python wrapper library for accessing OpenWeatherMap web APIs
+pip install kivy           #Open source framework based on Python, providing GUI for developing software
+pip install nanoleafapi    #nanoleafapi is a Python 3 wrapper for the Nanoleaf OpenAPI
+pip install phue           #Full featured Python library to control the Philips Hue lighting system
+pip install requests       #The requests library is a standard for making HTTP requests in Python
+pip install json           #It can also convert Python dictionaries or lists into JSON strings
+pip install threading      #Non blocking timer for dynamic control
+pip install pyowm          #PyOWM is a client Python wrapper library for accessing OpenWeatherMap web APIs
 ```
 
 ## Prerequisites
