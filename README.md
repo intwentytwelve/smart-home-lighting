@@ -1,4 +1,4 @@
-# smart-home-lighting
+# Smart home lighting
 An adaptive lighting control system that aims to reduce energy consumption while simultaneously preserving the lighting comfort of occupants. Philips Hue light bulbs and Nanoleaf Canvas facilitates interactions and improves data exchange efficiency.
 
 # Table of Contents
