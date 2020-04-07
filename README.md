@@ -4,7 +4,7 @@ An adaptive lighting control system that aims to reduce energy consumption while
 # Table of Contents
 1. [Installation](#Installation)
 2. [Prerequisites](#Prerequisites)
-3. [Roles](#Role)
+3. [Roles](#Roles)
 
 ## Installation
 To install the latest stable release of libraries used:
