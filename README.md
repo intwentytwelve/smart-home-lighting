@@ -35,5 +35,6 @@ b=Bridge(ip)
 
 ## Role
 ```
-app.py  #A library wrote for achieving geofencing function. Geofencing is a location-based service in which an app or other software              uses GPS, RFID, Wi-Fi or cellular data to trigger a pre-programmed action when a mobile device or RFID tag enters or exits a            virtual boundary set up around a geographical location, known as a geofence. Any device that is connecting to the wifi network          makes a broadcast to this port asking for a DHCP address. The DHCP server responds by broadcasting the assigned IP back to that          device as a response over port 67.
+app.py
+A library wrote for achieving geofencing function. Geofencing is a location-based service in which an app or other software              uses GPS, RFID, Wi-Fi or cellular data to trigger a pre-programmed action when a mobile device or RFID tag enters or exits a            virtual boundary set up around a geographical location, known as a geofence. Any device that is connecting to the wifi network          makes a broadcast to this port asking for a DHCP address. The DHCP server responds by broadcasting the assigned IP back to that          device as a response over port 67.
 ```
