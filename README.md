@@ -55,6 +55,11 @@ The framework of application. Kv language is used for describing user interfaces
 main.py
 ```
 
+The Android .apk file of adaptive control lighting system:
+```
+myapp__armeabi-v7a-0.1-armeabi-v7a-debug.apk
+```
+
 Notification by flashing of Nanoleaf Canvas. It imitates a process that server sends a message through IFTTT, then users get a notification on mobile phone. Nanoleaf Canvas detects the notificaiton and flashes to notify users there is a message:
 ```
 notice.py
