@@ -10,7 +10,7 @@ An adaptive lighting control system that aims to reduce energy consumption while
    * [Events](#Events)
    
 ## Installation
-To install the latest stable release:
+To install the latest stable release of libraries used:
 
 ```bash
 pip install kivy
@@ -24,7 +24,14 @@ pip install pyowm
 
 ## Prerequisites
 We need to get the IP addresses of Philips Hue and Nanoleaf Canvas to control devices. These can be done by identifying MAC addresses at first. 
+
+This is for connecting Nanoleaf Canvas:
 ```bash
 from nanoleafapi import Nanoleaf
 nl=nanoleaf(ip,auth_token)
+```
+This is for connecting Philips Hue:
+```bash
+from phue import Bridge
+b=Bridge(ip)
 ```
