@@ -35,9 +35,17 @@ b=Bridge(ip)
 
 ## Roles
 
-A library wrote for achieving geofencing function. Geofencing is a location-based service in which an app or other software              uses GPS, RFID, Wi-Fi or cellular data to trigger a pre-programmed action when a mobile device or RFID tag enters or exits a            virtual boundary set up around a geographical location, known as a geofence. Any device that is connecting to the wifi network          makes a broadcast to this port asking for a DHCP address. The DHCP server responds by broadcasting the assigned IP back to that          device as a response over port 67:
+A library wrote for achieving geofencing function. Geofencing is a location-based service in which an app or other software uses GPS,  RFID, Wi-Fi or cellular data to trigger a pre-programmed action when a mobile device or RFID tag enters or exits a virtual boundary set up around a geographical location, known as a geofence. Any device that is connecting to the wifi network makes a broadcast to this port asking for a DHCP address. The DHCP server responds by broadcasting the assigned IP back to that device as a response over port 67:
 ```
 app.py
 ```
 
+It is the background picture of mobile application:
+```
+background.jpg
+```
 
+Music feature is allowing hue Phillips light bulbs to react to the beats and sync the lights flash to the background music. Fast Fourier transforms are widely used for applications in engineering, music, science, and mathematics. Accordingly this function is used to determine the brightness of the lamps concerning an activation threshold that constantly checks the brightness of the lamps:
+```
+lightningstrike.py
+```
