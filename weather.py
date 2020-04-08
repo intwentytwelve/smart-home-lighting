@@ -7,7 +7,7 @@ from phue import Bridge
 
 from config import *
 
-owm = pyowm.OWM('da5edc6e45171ba8f35405139b4d3e6e')
+owm = pyowm.OWM('authentication token') # Real token was removed by authors for protecting security
 #'227ef8a4e315ac8f15ea6a3493f9e318'
 current_status = ''
 previous_status = ''
