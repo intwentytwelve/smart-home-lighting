@@ -82,4 +82,5 @@ def blitz():
     time.sleep(.45)
     allLightsBrightness(0)
     time.sleep(.29)
+    
 blitz()
