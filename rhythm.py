@@ -37,7 +37,7 @@ def blitz():
         allLightsBrightness(120)
         allLightsOff()
         time.sleep(.1)
-        mixer.music.load('/Users/behzadlashgari/Downloads/storm-thunder.wav')
+        mixer.music.load('/storm-thunder.wav')
         mixer.music.play()
         allLightsOn()
         allLightsBrightness(210)
@@ -56,9 +56,7 @@ def blitz():
         allLightsBrightness(50)
         allLightsOff()
         time.sleep(1.5)
-  #  time.sleep(120)
 
-    #mixer.music.load('/Users/behzadlashgari/Downloads/storm-thunder.wav')
     mixer.music.play()
     allLightsOn()
     allLightsBrightness(255)
@@ -84,12 +82,4 @@ def blitz():
     time.sleep(.45)
     allLightsBrightness(0)
     time.sleep(.29)
-#allLightsBrightness(40)
-#time.sleep(.27)
-
-    
-
 blitz()
-
-
-
