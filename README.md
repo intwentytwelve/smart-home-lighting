@@ -40,7 +40,7 @@ A library to achieve geofencing function for Philips Hue. Geofencing is a locati
 app.py
 ```
 
-It is the background picture of mobile application:
+It is the background picture of the mobile application:
 ```
 background.jpg
 ```
@@ -65,13 +65,12 @@ Music feature is allowing Phillips Hue light bulbs to react to the beats and syn
 rhythm.py
 ```
 
-Reducing the screen time is one of the most important factors that requires significant attention since it affects the users personal
-wellbeing. Hence, this research propounds a more visualized manner for Philips Hue lab and bed room bulbs to remind the users to rest their eyes after staring at the computer for a long period of time:
+Reducing the screen time is one of the most important factors that requires significant attention since it affects the users personal well-being. Hence, this research propounds a more visualized manner for Philips Hue lab and bed room bulbs to remind the users to rest their eyes after staring at the computer for a long period of time:
 ```
 screen.py
 ```
 
-This features aims to make the hue light bulbs work with respect to weather condition. In this regard, this research has used Open Weather Maps as the weather API to get the current weather conditions for one place and then changes the color of the brightness of the Hue lamps accordingly:
+This features aims to make the hue light bulbs work with respect to the weather condition. In this regard, this research has used Open Weather Maps as the weather API to get the current weather conditions for one place and then changes the color of the brightness of the Hue lamps accordingly:
 ```
 weather.py
 ```
