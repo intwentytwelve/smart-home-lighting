@@ -5,6 +5,7 @@ An adaptive lighting control system that aims to reduce energy consumption while
 1. [Installation](#Installation)
 2. [Prerequisites](#Prerequisites)
 3. [Roles](#Roles)
+4. [Screencast](#Screencast)
 
 ## Installation
 To install the latest stable release of libraries used:
@@ -74,3 +75,8 @@ This features aims to make the hue light bulbs work with respect to the weather 
 ```
 weather.py
 ```
+
+## Screencast
+
+https://drive.google.com/file/d/1fEdq9M80ZPIFqJqAY-_hrBi0_CLYyTz2/view?usp=sharing
+https://drive.google.com/file/d/1t5MoGjgh09t-D7cnD1ybmQhskaRa8r90/view?usp=sharing
